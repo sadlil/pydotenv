@@ -16,7 +16,10 @@ pip install git+https://github.com/ellisonbg/antipackage.git#egg=antipackage
 ```
 # ref: https://github.com/ellisonbg/antipackage
 import antipackage
-from github.sadlil.pydotenv import load_dotenv
+from github.sadlil.pydotenv import pydotenv
+
+// Load the file
+pydotenv.load_dotenv(".env")
 ```
 
 ## Licence
